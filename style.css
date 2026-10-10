@@ -428,8 +428,9 @@ a {
 
 .profile-img {
   width: 100%;
-  max-height: 400px;
+  max-height: 440px;
   object-fit: cover;
+  object-position: center 15%;
   border-radius: 18px;
   display: block;
 }
