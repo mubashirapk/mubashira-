@@ -1,0 +1,1076 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mubashira PK | Data Analytics & Developer Portfolio</title>
+
+  <!-- Meta Descriptions for SEO -->
+  <meta name="description"
+    content="Personal portfolio of Mubashira PK - Data Analytics enthusiast and developer showcasing skills, modern projects, education, and contact details.">
+  <meta name="author" content="Mubashira PK">
+  <meta name="keywords"
+    content="Mubashira PK, Data Analytics, Python, Flutter, Portfolio, Web Developer, Projects, Softroniics">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml"
+    href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📊</text></svg>">
+
+  <!-- Google Fonts: Plus Jakarta Sans & Outfit -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
+
+  <!-- Bootstrap 5.3.3 CSS CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+  <!-- Font Awesome 6.5.1 CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#mainNavbar" data-bs-offset="100" tabindex="0">
+
+  <!-- =========================================================
+       1. NAVIGATION BAR
+       ========================================================= -->
+  <nav class="navbar navbar-expand-lg fixed-top modern-navbar" id="mainNavbar">
+    <div class="container">
+      <!-- Brand Logo / Name -->
+      <a class="navbar-brand d-flex align-items-center gap-2" href="#home" id="brandLogo">
+        <span class="brand-badge"><i class="fa-solid fa-chart-line text-purple"></i></span>
+        <span class="brand-name">MUBASHIRA<span class="accent-dot">.</span>PK</span>
+      </a>
+
+      <!-- Mobile Hamburger Toggle Button -->
+      <button class="navbar-toggler custom-toggler border-0 shadow-none" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false"
+        aria-label="Toggle navigation" id="navbarTogglerBtn">
+        <span class="toggler-icon"></span>
+        <span class="toggler-icon"></span>
+        <span class="toggler-icon"></span>
+      </button>
+
+      <!-- Navigation Links -->
+      <div class="collapse navbar-collapse" id="navbarContent">
+        <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-2">
+          <li class="nav-item">
+            <a class="nav-link active" href="#home" id="navHome">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about" id="navAbout">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills" id="navSkills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects" id="navProjects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#education" id="navEducation">Education</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact" id="navContact">Contact</a>
+          </li>
+          <li class="nav-item ms-lg-2 mt-3 mt-lg-0">
+            <a class="btn btn-sm btn-hire me-2" href="#contact" id="navHireBtn">
+              <i class="fa-regular fa-paper-plane me-1"></i> Get In Touch
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- =========================================================
+       2. HERO SECTION
+       ========================================================= -->
+  <header class="hero-section d-flex align-items-center" id="home">
+    <!-- Ambient Background Light Orbs -->
+    <div class="glow-orb orb-purple"></div>
+    <div class="glow-orb orb-blue"></div>
+
+    <div class="container hero-container position-relative">
+      <div class="row align-items-center gy-5">
+
+        <!-- Hero Text Column -->
+        <div class="col-lg-7 text-center text-lg-start">
+          <div class="badge-role mb-3 d-inline-flex align-items-center gap-2">
+            <span class="status-indicator"></span>
+            <span>Available for Opportunities & Projects</span>
+          </div>
+
+          <h1 class="hero-title mb-2">
+            Hello, I'm <br>
+            <span class="gradient-text">MUBASHIRA PK</span>
+          </h1>
+
+          <h2 class="hero-subtitle mb-4">
+            <span class="text-white-50">Specializing in </span>
+            <span class="role-text" id="typewriterText">DATA ANALYST</span>
+            <span class="typewriter-cursor">|</span>
+          </h2>
+
+          <p class="hero-description text-secondary mb-4 pe-lg-4">
+            Data Analyst skilled in <strong>Python</strong>, <strong>Exploratory Data Analysis (EDA)</strong>, and <strong>Advanced Excel</strong>. Passionate about uncovering patterns in raw datasets, building KPI dashboards, and delivering actionable business intelligence.
+          </p>
+
+          <!-- Call To Action Buttons -->
+          <div class="d-flex flex-wrap gap-3 justify-content-center justify-content-lg-start mb-4 pb-2">
+            <a href="#projects" class="btn btn-primary-gradient px-4 py-2" id="heroBtnViewWork">
+              <i class="fa-solid fa-chart-line me-2"></i> View My Projects
+            </a>
+            <a href="#contact" class="btn btn-outline-glow px-4 py-2" id="heroBtnContactMe">
+              <i class="fa-solid fa-envelope me-2"></i> Contact Me
+            </a>
+          </div>
+
+          <!-- Social Media Links -->
+          <div class="hero-socials d-flex align-items-center gap-3 justify-content-center justify-content-lg-start">
+            <span class="text-white-50 small fw-medium">Connect with me:</span>
+            <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="social-icon"
+              aria-label="GitHub Profile" id="heroGithubLink">
+              <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-icon"
+              aria-label="LinkedIn Profile" id="heroLinkedinLink">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="social-icon"
+              aria-label="Instagram Profile" id="heroInstagramLink">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Hero Avatar Column -->
+        <div class="col-lg-5 text-center">
+          <div class="hero-avatar-wrapper mx-auto">
+            <div class="avatar-glow-ring"></div>
+            <div class="avatar-card shadow-lg">
+              <img src="assets/profile.jpg" alt="Mubashira PK Profile" class="img-fluid rounded-4 profile-img"
+                id="heroProfileImage"
+                onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=600&auto=format&fit=crop';">
+            </div>
+
+            <!-- Floating Tech Badges around Avatar -->
+            <div class="floating-badge badge-top-right">
+              <i class="fa-brands fa-python text-warning me-1"></i> Python & EDA Projects
+            </div>
+            <div class="floating-badge badge-bottom-left">
+              <i class="fa-solid fa-file-excel text-success me-1"></i> Excel & BI Dashboards
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- =========================================================
+         3. ABOUT ME SECTION
+         ========================================================= -->
+    <section class="section-padding" id="about">
+      <div class="container">
+
+        <!-- Section Header -->
+        <div class="text-center mb-5">
+          <span class="section-badge"><i class="fa-regular fa-user me-1"></i> DISCOVER</span>
+          <h2 class="section-title">About <span class="gradient-text">Me</span></h2>
+          <p class="section-subtitle">A glimpse into my background, passion for data, and development journey</p>
+        </div>
+
+        <div class="row align-items-center gy-4">
+          <!-- About Description Column -->
+          <div class="col-lg-6">
+            <div class="about-card p-4 p-md-5 h-100">
+              <h3 class="h4 text-white mb-3">Hi there! I'm <span class="text-purple">Mubashira PK</span></h3>
+              <p class="text-secondary leading-relaxed mb-3">
+                I am a dedicated <strong>Data Analyst</strong> with a passion for <strong>Exploratory Data Analysis (EDA)</strong>, statistical insights, and data storytelling. I specialize in processing raw, messy datasets using <strong>Python</strong> (Pandas, NumPy, Matplotlib, Seaborn) and crafting powerful business dashboards in <strong>Advanced Excel</strong>.
+              </p>
+              <p class="text-secondary leading-relaxed mb-4">
+                From finding hidden correlations and testing business hypotheses to building automated KPI reporting dashboards, my objective is to help organizations make confident, data-driven decisions that deliver measurable impact.
+              </p>
+
+              <!-- Quick Info List -->
+              <div class="row g-3 pt-2 border-top border-dark-subtle">
+                <div class="col-sm-6">
+                  <div class="info-item">
+                    <span class="info-label text-white-50"><i
+                        class="fa-solid fa-chart-pie text-purple me-2"></i>Primary Role:</span>
+                    <span class="info-val text-white fw-medium">Data Analyst</span>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="info-item">
+                    <span class="info-label text-white-50"><i
+                        class="fa-solid fa-magnifying-glass-chart text-cyan me-2"></i>Core Specialization:</span>
+                    <span class="info-val text-white fw-medium">Python, EDA & Excel</span>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="info-item">
+                    <span class="info-label text-white-50"><i
+                        class="fa-solid fa-location-dot text-purple me-2"></i>Location:</span>
+                    <span class="info-val text-white fw-medium">Kerala, India</span>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="info-item">
+                    <span class="info-label text-white-50"><i
+                        class="fa-solid fa-briefcase text-cyan me-2"></i>Status:</span>
+                    <span class="info-val text-white fw-medium">Open to Analyst Roles</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Action button -->
+              <div class="mt-4 pt-2">
+                <a href="#contact" class="btn btn-outline-purple px-4">
+                  <i class="fa-regular fa-comments me-2"></i> Let's Connect
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Key Pillars / Highlights Column -->
+          <div class="col-lg-6">
+            <div class="row g-3">
+
+              <!-- Pillar 1 -->
+              <div class="col-12">
+                <div class="feature-box d-flex align-items-start gap-3 p-4">
+                  <div class="feature-icon-wrapper bg-purple-glow">
+                    <i class="fa-solid fa-magnifying-glass-chart"></i>
+                  </div>
+                  <div>
+                    <h4 class="h5 text-white mb-2">Exploratory Data Analysis (EDA)</h4>
+                    <p class="text-secondary mb-0 small">
+                      In-depth data profiling, outlier detection, distribution evaluation, and correlation heatmaps to extract actionable answers from real-world data.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Pillar 2 -->
+              <div class="col-12">
+                <div class="feature-box d-flex align-items-start gap-3 p-4">
+                  <div class="feature-icon-wrapper bg-blue-glow">
+                    <i class="fa-brands fa-python"></i>
+                  </div>
+                  <div>
+                    <h4 class="h5 text-white mb-2">Python Data Science Stack</h4>
+                    <p class="text-secondary mb-0 small">
+                      Proficient in Pandas, NumPy, Matplotlib, and Seaborn for reproducible cleaning pipelines, exploratory notebooks, and analytical scripts.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Pillar 3 -->
+              <div class="col-12">
+                <div class="feature-box d-flex align-items-start gap-3 p-4">
+                  <div class="feature-icon-wrapper bg-cyan-glow">
+                    <i class="fa-solid fa-file-excel"></i>
+                  </div>
+                  <div>
+                    <h4 class="h5 text-white mb-2">Advanced Excel & Dashboarding</h4>
+                    <p class="text-secondary mb-0 small">
+                      Expertise in dynamic Pivot Tables, VLOOKUP/XLOOKUP, nested conditional logic, interactive slicers, and executive KPI reporting decks.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =========================================================
+         4. SKILLS SECTION
+         ========================================================= -->
+    <section class="section-padding bg-darker-surface" id="skills">
+      <div class="container">
+
+        <!-- Section Header -->
+        <div class="text-center mb-5">
+          <span class="section-badge"><i class="fa-solid fa-laptop-code me-1"></i> EXPERTISE</span>
+          <h2 class="section-title">Technical <span class="gradient-text">Skills</span></h2>
+          <p class="section-subtitle">Core programming languages, analytical tools, and development frameworks</p>
+        </div>
+
+        <div class="row g-4">
+
+          <!-- Skill Card 1: Python for Data Analysis -->
+          <div class="col-md-6 col-lg-3">
+            <div class="skill-card p-4 text-center h-100">
+              <div class="skill-icon text-python mb-3">
+                <i class="fa-brands fa-python"></i>
+              </div>
+              <h3 class="h5 text-white mb-2">Python for Data</h3>
+              <p class="text-secondary small mb-3">Pandas, NumPy, automated data wrangling, cleaning pipelines, and scripting.</p>
+              <div class="skill-progress-bar">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+              <div class="d-flex justify-content-between mt-2 small text-white-50">
+                <span>Proficiency</span>
+                <span class="text-purple fw-semibold">90%</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Skill Card 2: Exploratory Data Analysis (EDA) -->
+          <div class="col-md-6 col-lg-3">
+            <div class="skill-card p-4 text-center h-100">
+              <div class="skill-icon text-cyan mb-3">
+                <i class="fa-solid fa-magnifying-glass-chart"></i>
+              </div>
+              <h3 class="h5 text-white mb-2">EDA & Profiling</h3>
+              <p class="text-secondary small mb-3">Hypothesis testing, outlier detection, correlation analysis, and pattern discovery.</p>
+              <div class="skill-progress-bar">
+                <div class="skill-progress-fill" style="width: 88%;"></div>
+              </div>
+              <div class="d-flex justify-content-between mt-2 small text-white-50">
+                <span>Proficiency</span>
+                <span class="text-purple fw-semibold">88%</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Skill Card 3: Advanced Microsoft Excel -->
+          <div class="col-md-6 col-lg-3">
+            <div class="skill-card p-4 text-center h-100">
+              <div class="skill-icon text-excel mb-3">
+                <i class="fa-solid fa-file-excel"></i>
+              </div>
+              <h3 class="h5 text-white mb-2">Advanced Excel</h3>
+              <p class="text-secondary small mb-3">Pivot Tables, VLOOKUP/XLOOKUP, nested formulas, slicers, and KPI dashboards.</p>
+              <div class="skill-progress-bar">
+                <div class="skill-progress-fill" style="width: 92%;"></div>
+              </div>
+              <div class="d-flex justify-content-between mt-2 small text-white-50">
+                <span>Proficiency</span>
+                <span class="text-purple fw-semibold">92%</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Skill Card 4: EDA Projects & Insights -->
+          <div class="col-md-6 col-lg-3">
+            <div class="skill-card p-4 text-center h-100">
+              <div class="skill-icon text-warning mb-3">
+                <i class="fa-solid fa-chart-line"></i>
+              </div>
+              <h3 class="h5 text-white mb-2">EDA Projects</h3>
+              <p class="text-secondary small mb-3">End-to-end dataset investigation, data storytelling, and business recommendations.</p>
+              <div class="skill-progress-bar">
+                <div class="skill-progress-fill" style="width: 86%;"></div>
+              </div>
+              <div class="d-flex justify-content-between mt-2 small text-white-50">
+                <span>Proficiency</span>
+                <span class="text-purple fw-semibold">86%</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Skill Card 5: SQL & Databases -->
+          <div class="col-md-6 col-lg-3">
+            <div class="skill-card p-4 text-center h-100">
+              <div class="skill-icon text-purple mb-3">
+                <i class="fa-solid fa-database"></i>
+              </div>
+              <h3 class="h5 text-white mb-2">SQL & Databases</h3>
+              <p class="text-secondary small mb-3">Relational queries, multi-table JOINs, data aggregation, filtering, and extraction.</p>
+              <div class="skill-progress-bar">
+                <div class="skill-progress-fill" style="width: 82%;"></div>
+              </div>
+              <div class="d-flex justify-content-between mt-2 small text-white-50">
+                <span>Proficiency</span>
+                <span class="text-purple fw-semibold">82%</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Skill Card 6: Data Visualization -->
+          <div class="col-md-6 col-lg-3">
+            <div class="skill-card p-4 text-center h-100">
+              <div class="skill-icon text-blue mb-3">
+                <i class="fa-solid fa-chart-pie"></i>
+              </div>
+              <h3 class="h5 text-white mb-2">Data Visualization</h3>
+              <p class="text-secondary small mb-3">Matplotlib, Seaborn, interactive graphs, metric distributions, and visual reporting.</p>
+              <div class="skill-progress-bar">
+                <div class="skill-progress-fill" style="width: 85%;"></div>
+              </div>
+              <div class="d-flex justify-content-between mt-2 small text-white-50">
+                <span>Proficiency</span>
+                <span class="text-purple fw-semibold">85%</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Skill Card 7: Git & Jupyter Notebooks -->
+          <div class="col-md-6 col-lg-3">
+            <div class="skill-card p-4 text-center h-100">
+              <div class="skill-icon text-danger mb-3">
+                <i class="fa-brands fa-git-alt"></i>
+              </div>
+              <h3 class="h5 text-white mb-2">Git & Jupyter</h3>
+              <p class="text-secondary small mb-3">Version control, reproducible analytical notebooks, and collaborative GitHub repos.</p>
+              <div class="skill-progress-bar">
+                <div class="skill-progress-fill" style="width: 85%;"></div>
+              </div>
+              <div class="d-flex justify-content-between mt-2 small text-white-50">
+                <span>Proficiency</span>
+                <span class="text-purple fw-semibold">85%</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Skill Card 8: Web & Dashboard UI -->
+          <div class="col-md-6 col-lg-3">
+            <div class="skill-card p-4 text-center h-100">
+              <div class="skill-icon text-orange mb-3">
+                <i class="fa-brands fa-html5"></i>
+              </div>
+              <h3 class="h5 text-white mb-2">Web Presentation</h3>
+              <p class="text-secondary small mb-3">HTML5, CSS3, Bootstrap 5 for interactive analytical dashboards and portfolio showcases.</p>
+              <div class="skill-progress-bar">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+              <div class="d-flex justify-content-between mt-2 small text-white-50">
+                <span>Proficiency</span>
+                <span class="text-purple fw-semibold">80%</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Workshop Customization Tip Banner -->
+        <div class="custom-tip-banner mt-5 p-3 rounded-3 text-center">
+          <p class="mb-0 text-white-50 small">
+            <i class="fa-solid fa-lightbulb text-warning me-2"></i>
+            <strong>Beginner Workshop Tip:</strong> To add your own skills, simply copy any
+            <code>&lt;div class="col-md-6 col-lg-3"&gt;</code> block inside <code>#skills</code> in
+            <code>index.html</code> and edit the title, icon, and percentage!
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =========================================================
+         5. PROJECTS SECTION
+         ========================================================= -->
+    <section class="section-padding" id="projects">
+      <div class="container">
+
+        <!-- Section Header -->
+        <div class="text-center mb-5">
+          <span class="section-badge"><i class="fa-solid fa-folder-open me-1"></i> PORTFOLIO</span>
+          <h2 class="section-title">Featured <span class="gradient-text">Projects</span></h2>
+          <p class="section-subtitle">Real-world applications showcasing full-cycle development and problem solving</p>
+        </div>
+
+        <div class="row g-4">
+
+          <!-- PROJECT 1: Exploratory Data Analysis (EDA) Project -->
+          <div class="col-lg-4 col-md-6">
+            <div class="project-card h-100 d-flex flex-column">
+              <div class="project-thumb-container">
+                <img src="assets/project-eda.jpg" alt="Exploratory Data Analysis EDA Project"
+                  class="img-fluid project-thumb"
+                  onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=800&auto=format&fit=crop';">
+                <div class="project-overlay">
+                  <span class="badge bg-purple px-3 py-2">Python &amp; EDA</span>
+                </div>
+              </div>
+
+              <div class="project-body p-4 d-flex flex-column flex-grow-1">
+                <div class="d-flex align-items-center justify-content-between mb-2">
+                  <h3 class="h5 project-title mb-0">EDA Project</h3>
+                  <span class="badge-status">Featured</span>
+                </div>
+
+                <h4 class="h6 text-purple mb-3">Exploratory Data Analysis</h4>
+
+                <p class="project-desc text-secondary small flex-grow-1">
+                  In-depth Exploratory Data Analysis (EDA) on complex multi-dimensional datasets using Python. Features correlation heatmaps, missing value imputation, outlier detection, distribution evaluations, and actionable data-driven insights.
+                </p>
+
+                <!-- Tech Stack Badges -->
+                <div class="project-tags mb-4">
+                  <span class="tech-tag">Python</span>
+                  <span class="tech-tag">Pandas</span>
+                  <span class="tech-tag">NumPy</span>
+                  <span class="tech-tag">Seaborn</span>
+                  <span class="tech-tag">Matplotlib</span>
+                  <span class="tech-tag">Jupyter</span>
+                </div>
+
+                <!-- Project Action Buttons -->
+                <div class="project-actions d-flex gap-2 pt-2 border-top border-dark-subtle">
+                  <a href="https://github.com" target="_blank" rel="noopener noreferrer"
+                    class="btn btn-sm btn-outline-project flex-grow-1" id="edaGithubBtn">
+                    <i class="fa-brands fa-github me-1"></i> Notebook Code
+                  </a>
+                  <a href="#projects" class="btn btn-sm btn-project-demo flex-grow-1" id="edaDemoBtn"
+                    onclick="alert('EDA Project: Interactive Jupyter notebook analysis and visual report linked. Customize this URL to your GitHub notebook!');">
+                    <i class="fa-solid fa-chart-simple me-1"></i> View Insights
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- PROJECT 2: Advanced Excel Analytics Dashboard -->
+          <div class="col-lg-4 col-md-6">
+            <div class="project-card h-100 d-flex flex-column">
+              <div class="project-thumb-container">
+                <img src="assets/project-excel.jpg" alt="Advanced Excel Business Analytics Dashboard"
+                  class="img-fluid project-thumb"
+                  onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=800&auto=format&fit=crop';">
+                <div class="project-overlay">
+                  <span class="badge bg-cyan px-3 py-2 text-dark fw-bold">Excel &amp; BI</span>
+                </div>
+              </div>
+
+              <div class="project-body p-4 d-flex flex-column flex-grow-1">
+                <div class="d-flex align-items-center justify-content-between mb-2">
+                  <h3 class="h5 project-title mb-0">Sales Analytics</h3>
+                  <span class="badge-status">Excel Project</span>
+                </div>
+
+                <h4 class="h6 text-cyan mb-3">Advanced Excel Dashboard</h4>
+
+                <p class="project-desc text-secondary small flex-grow-1">
+                  Executive business intelligence dashboard built in Microsoft Excel. Employs dynamic Pivot Tables, multi-criteria XLOOKUP formulas, interactive slicers, KPI tracking summary cards, and regional trend breakdowns.
+                </p>
+
+                <!-- Tech Stack Badges -->
+                <div class="project-tags mb-4">
+                  <span class="tech-tag">Advanced Excel</span>
+                  <span class="tech-tag">Pivot Tables</span>
+                  <span class="tech-tag">XLOOKUP</span>
+                  <span class="tech-tag">KPI Modeling</span>
+                  <span class="tech-tag">Slicers</span>
+                </div>
+
+                <!-- Project Action Buttons -->
+                <div class="project-actions d-flex gap-2 pt-2 border-top border-dark-subtle">
+                  <a href="https://github.com" target="_blank" rel="noopener noreferrer"
+                    class="btn btn-sm btn-outline-project flex-grow-1" id="excelGithubBtn">
+                    <i class="fa-brands fa-github me-1"></i> Workbook / Sheet
+                  </a>
+                  <a href="#projects" class="btn btn-sm btn-project-demo flex-grow-1" id="excelDemoBtn"
+                    onclick="alert('Excel Project: Interactive Excel workbook preview and KPI dashboard linked. Customize this URL to your sheet or repository!');">
+                    <i class="fa-solid fa-file-excel me-1"></i> View Dashboard
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- PROJECT 3: LMS - Softroniics Learning Management System -->
+          <div class="col-lg-4 col-md-6">
+            <div class="project-card h-100 d-flex flex-column">
+              <div class="project-thumb-container">
+                <img src="assets/project-lms.jpg" alt="LMS Softroniics Learning Management System"
+                  class="img-fluid project-thumb"
+                  onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=800&auto=format&fit=crop';">
+                <div class="project-overlay">
+                  <span class="badge bg-purple px-3 py-2">Web Application</span>
+                </div>
+              </div>
+
+              <div class="project-body p-4 d-flex flex-column flex-grow-1">
+                <div class="d-flex align-items-center justify-content-between mb-2">
+                  <h3 class="h5 project-title mb-0">LMS - Softroniics</h3>
+                  <span class="badge-status">Completed</span>
+                </div>
+
+                <h4 class="h6 text-purple mb-3">Learning Management System</h4>
+
+                <p class="project-desc text-secondary small flex-grow-1">
+                  A comprehensive, student-centric learning platform designed for Softroniics. Features interactive
+                  course modules, study material catalogs, progress analytics, and seamless student-instructor
+                  communication.
+                </p>
+
+                <!-- Tech Stack Badges -->
+                <div class="project-tags mb-4">
+                  <span class="tech-tag">HTML5</span>
+                  <span class="tech-tag">CSS3</span>
+                  <span class="tech-tag">Bootstrap 5</span>
+                  <span class="tech-tag">JavaScript</span>
+                  <span class="tech-tag">Python</span>
+                </div>
+
+                <!-- Project Action Buttons -->
+                <div class="project-actions d-flex gap-2 pt-2 border-top border-dark-subtle">
+                  <a href="https://github.com" target="_blank" rel="noopener noreferrer"
+                    class="btn btn-sm btn-outline-project flex-grow-1" id="lmsGithubBtn">
+                    <i class="fa-brands fa-github me-1"></i> Source Code
+                  </a>
+                  <a href="#projects" class="btn btn-sm btn-project-demo flex-grow-1" id="lmsDemoBtn"
+                    onclick="alert('Demo: LMS Softroniics portal preview is linked. Customize this URL to your live deployment!');">
+                    <i class="fa-solid fa-arrow-up-right-from-square me-1"></i> Live Demo
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- PROJECT 4: AutoResq - Mechanic Assistance App -->
+          <div class="col-lg-4 col-md-6">
+            <div class="project-card h-100 d-flex flex-column">
+              <div class="project-thumb-container">
+                <img src="assets/project-autoresq.jpg" alt="AutoResq Mechanic Assistance App"
+                  class="img-fluid project-thumb"
+                  onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?q=80&w=800&auto=format&fit=crop';">
+                <div class="project-overlay">
+                  <span class="badge bg-cyan px-3 py-2 text-dark fw-bold">Mobile Application</span>
+                </div>
+              </div>
+
+              <div class="project-body p-4 d-flex flex-column flex-grow-1">
+                <div class="d-flex align-items-center justify-content-between mb-2">
+                  <h3 class="h5 project-title mb-0">AutoResq</h3>
+                  <span class="badge-status">Active App</span>
+                </div>
+
+                <h4 class="h6 text-cyan mb-3">Mechanic Assistance App</h4>
+
+                <p class="project-desc text-secondary small flex-grow-1">
+                  An on-demand emergency roadside assistance mobile platform. Enables stranded motorists to locate
+                  nearby verified mechanics, track real-time assistance via GPS, and submit emergency service tickets.
+                </p>
+
+                <!-- Tech Stack Badges -->
+                <div class="project-tags mb-4">
+                  <span class="tech-tag">Flutter</span>
+                  <span class="tech-tag">Dart</span>
+                  <span class="tech-tag">GPS / Maps</span>
+                  <span class="tech-tag">REST API</span>
+                  <span class="tech-tag">Firebase</span>
+                </div>
+
+                <!-- Project Action Buttons -->
+                <div class="project-actions d-flex gap-2 pt-2 border-top border-dark-subtle">
+                  <a href="https://github.com" target="_blank" rel="noopener noreferrer"
+                    class="btn btn-sm btn-outline-project flex-grow-1" id="autoresqGithubBtn">
+                    <i class="fa-brands fa-github me-1"></i> Source Code
+                  </a>
+                  <a href="#projects" class="btn btn-sm btn-project-demo flex-grow-1" id="autoresqDemoBtn"
+                    onclick="alert('Demo: AutoResq mobile APK/Demo is linked. Customize this URL to your repository!');">
+                    <i class="fa-solid fa-arrow-up-right-from-square me-1"></i> Live Demo
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- PROJECT 5: Blessing - Islamic Tracker -->
+          <div class="col-lg-4 col-md-6">
+            <div class="project-card h-100 d-flex flex-column">
+              <div class="project-thumb-container">
+                <img src="assets/project-blessing.jpg" alt="Blessing Islamic Tracker" class="img-fluid project-thumb"
+                  onerror="this.onerror=null; this.src='https://images.unsplash.com/photo-1564769625905-50e93615e769?q=80&w=800&auto=format&fit=crop';">
+                <div class="project-overlay">
+                  <span class="badge bg-purple px-3 py-2">Productivity & Lifestyle</span>
+                </div>
+              </div>
+
+              <div class="project-body p-4 d-flex flex-column flex-grow-1">
+                <div class="d-flex align-items-center justify-content-between mb-2">
+                  <h3 class="h5 project-title mb-0">Blessing</h3>
+                  <span class="badge-status">Featured</span>
+                </div>
+
+                <h4 class="h6 text-purple mb-3">Islamic Daily Tracker</h4>
+
+                <p class="project-desc text-secondary small flex-grow-1">
+                  A serene, habit-tracking daily companion application. Features calculated prayer timings, Qibla
+                  direction finder, Quran reading streak tracker, and thoughtful daily reminders designed for mindful
+                  living.
+                </p>
+
+                <!-- Tech Stack Badges -->
+                <div class="project-tags mb-4">
+                  <span class="tech-tag">Flutter</span>
+                  <span class="tech-tag">Dart</span>
+                  <span class="tech-tag">Local Storage</span>
+                  <span class="tech-tag">Sensors</span>
+                  <span class="tech-tag">UI/UX</span>
+                </div>
+
+                <!-- Project Action Buttons -->
+                <div class="project-actions d-flex gap-2 pt-2 border-top border-dark-subtle">
+                  <a href="https://github.com" target="_blank" rel="noopener noreferrer"
+                    class="btn btn-sm btn-outline-project flex-grow-1" id="blessingGithubBtn">
+                    <i class="fa-brands fa-github me-1"></i> Source Code
+                  </a>
+                  <a href="#projects" class="btn btn-sm btn-project-demo flex-grow-1" id="blessingDemoBtn"
+                    onclick="alert('Demo: Blessing App demo is linked. Customize this URL to your app showcase!');">
+                    <i class="fa-solid fa-arrow-up-right-from-square me-1"></i> Live Demo
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =========================================================
+         6. EDUCATION SECTION
+         ========================================================= -->
+    <section class="section-padding bg-darker-surface" id="education">
+      <div class="container">
+
+        <!-- Section Header -->
+        <div class="text-center mb-5">
+          <span class="section-badge"><i class="fa-solid fa-graduation-cap me-1"></i> MILESTONES</span>
+          <h2 class="section-title">Academic <span class="gradient-text">Education</span></h2>
+          <p class="section-subtitle">Academic qualifications, professional training programs, and certifications</p>
+        </div>
+
+        <div class="row justify-content-center">
+          <div class="col-lg-10">
+
+            <!-- Timeline Container -->
+            <div class="timeline-wrapper">
+
+              <!-- Timeline Item 1 -->
+              <div class="timeline-item">
+                <div class="timeline-dot">
+                  <i class="fa-solid fa-laptop-code"></i>
+                </div>
+                <div class="timeline-content p-4">
+                  <div class="d-flex flex-wrap align-items-center justify-content-between gap-2 mb-2">
+                    <h3 class="h5 text-white mb-0">Professional Training in Data Analytics & Full Stack</h3>
+                    <span class="badge-year">2024 - Present</span>
+                  </div>
+                  <h4 class="h6 text-purple mb-3">Softroniics Learning Center</h4>
+                  <p class="text-secondary small mb-3">
+                    Intensive practical training focusing on business data analytics, Python data workflows, SQL
+                    database querying, responsive web design with Bootstrap, and mobile app architecture.
+                  </p>
+                  <div class="d-flex flex-wrap gap-2">
+                    <span class="badge bg-dark-subtle text-white-50 border border-secondary border-opacity-25">Data
+                      Analytics</span>
+                    <span
+                      class="badge bg-dark-subtle text-white-50 border border-secondary border-opacity-25">Python</span>
+                    <span
+                      class="badge bg-dark-subtle text-white-50 border border-secondary border-opacity-25">Bootstrap</span>
+                    <span
+                      class="badge bg-dark-subtle text-white-50 border border-secondary border-opacity-25">Flutter</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Timeline Item 2 -->
+              <div class="timeline-item">
+                <div class="timeline-dot">
+                  <i class="fa-solid fa-user-graduate"></i>
+                </div>
+                <div class="timeline-content p-4">
+                  <div class="d-flex flex-wrap align-items-center justify-content-between gap-2 mb-2">
+                    <h3 class="h5 text-white mb-0">Bachelor's Degree in Computer Application / Science</h3>
+                    <span class="badge-year">2021 - 2024</span>
+                  </div>
+                  <h4 class="h6 text-cyan mb-3">University / College Institution</h4>
+                  <p class="text-secondary small mb-3">
+                    Core computer science foundation encompassing Data Structures & Algorithms, Object-Oriented
+                    Programming, Database Management Systems (DBMS), and Software Engineering methodologies.
+                  </p>
+                  <div class="d-flex flex-wrap gap-2">
+                    <span class="badge bg-dark-subtle text-white-50 border border-secondary border-opacity-25">DBMS &
+                      SQL</span>
+                    <span class="badge bg-dark-subtle text-white-50 border border-secondary border-opacity-25">Core
+                      Programming</span>
+                    <span class="badge bg-dark-subtle text-white-50 border border-secondary border-opacity-25">Web
+                      Development</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Timeline Item 3 -->
+              <div class="timeline-item">
+                <div class="timeline-dot">
+                  <i class="fa-solid fa-certificate"></i>
+                </div>
+                <div class="timeline-content p-4">
+                  <div class="d-flex flex-wrap align-items-center justify-content-between gap-2 mb-2">
+                    <h3 class="h5 text-white mb-0">Higher Secondary Education (Science & Computer Studies)</h3>
+                    <span class="badge-year">2019 - 2021</span>
+                  </div>
+                  <h4 class="h6 text-purple mb-3">Higher Secondary School</h4>
+                  <p class="text-secondary small mb-0">
+                    Graduated with distinction with deep focus on Mathematics, Computer Science, and Analytical Logic.
+                  </p>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- =========================================================
+         7. CONTACT SECTION
+         ========================================================= -->
+    <section class="section-padding" id="contact">
+      <div class="container">
+
+        <!-- Section Header -->
+        <div class="text-center mb-5">
+          <span class="section-badge"><i class="fa-regular fa-paper-plane me-1"></i> GET IN TOUCH</span>
+          <h2 class="section-title">Contact <span class="gradient-text">Me</span></h2>
+          <p class="section-subtitle">Have a project idea, question, or opportunity? I'd love to hear from you!</p>
+        </div>
+
+        <div class="row gy-4">
+
+          <!-- Contact Information Side -->
+          <div class="col-lg-5">
+            <div class="contact-info-card p-4 p-md-5 h-100">
+              <h3 class="h4 text-white mb-3">Let's Collaborate</h3>
+              <p class="text-secondary small mb-4">
+                I am actively seeking fresher roles, internships, and collaborative software or data analytics projects.
+                Feel free to reach out directly through email, phone, or social channels.
+              </p>
+
+              <!-- Info Items -->
+              <div class="d-flex flex-column gap-3 mb-4">
+
+                <div class="contact-method d-flex align-items-center gap-3">
+                  <div class="contact-icon-box bg-purple-glow">
+                    <i class="fa-solid fa-envelope"></i>
+                  </div>
+                  <div>
+                    <span class="text-white-50 small d-block">Email Address</span>
+                    <a href="mailto:mubashira.pk@example.com" class="text-white fw-medium contact-link"
+                      id="contactEmailLink">mubashira.pk@example.com</a>
+                  </div>
+                </div>
+
+                <div class="contact-method d-flex align-items-center gap-3">
+                  <div class="contact-icon-box bg-blue-glow">
+                    <i class="fa-solid fa-location-dot"></i>
+                  </div>
+                  <div>
+                    <span class="text-white-50 small d-block">Location</span>
+                    <span class="text-white fw-medium">Kerala, India</span>
+                  </div>
+                </div>
+
+                <div class="contact-method d-flex align-items-center gap-3">
+                  <div class="contact-icon-box bg-cyan-glow">
+                    <i class="fa-solid fa-clock"></i>
+                  </div>
+                  <div>
+                    <span class="text-white-50 small d-block">Response Time</span>
+                    <span class="text-white fw-medium">Within 24 Hours</span>
+                  </div>
+                </div>
+
+              </div>
+
+              <!-- Social Links in Contact Card -->
+              <h4 class="h6 text-white mb-3">Follow My Journey</h4>
+              <div class="d-flex gap-2">
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="social-icon"
+                  aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-icon"
+                  aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="social-icon"
+                  aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Contact Form Side -->
+          <div class="col-lg-7">
+            <div class="contact-form-card p-4 p-md-5">
+
+              <!-- Form Submission Status Alert (Hidden by default, shown by JS) -->
+              <div class="alert alert-success d-none mb-4" id="formSuccessAlert" role="alert">
+                <i class="fa-solid fa-circle-check me-2"></i>
+                <span>Thank you! Your message has been sent successfully. I will get back to you soon.</span>
+              </div>
+
+              <div class="alert alert-danger d-none mb-4" id="formErrorAlert" role="alert">
+                <i class="fa-solid fa-triangle-exclamation me-2"></i>
+                <span id="formErrorMessage">Please fill out all required fields correctly.</span>
+              </div>
+
+              <!-- Important Backend Note for Learners -->
+              <div class="backend-notice mb-4 p-3 rounded-2">
+                <div class="d-flex gap-2">
+                  <i class="fa-solid fa-circle-info text-cyan mt-1"></i>
+                  <div class="small text-white-50">
+                    <strong class="text-white">Note for Workshop Students:</strong> This demo portfolio validates user
+                    input on the client-side using JavaScript. To connect this form to your real inbox in production,
+                    you can link the action to services like <a href="https://formspree.io" target="_blank"
+                      class="text-cyan text-decoration-underline">Formspree</a>, <a href="https://www.emailjs.com/"
+                      target="_blank" class="text-cyan text-decoration-underline">EmailJS</a>, or a custom Python/Node
+                    backend.
+                  </div>
+                </div>
+              </div>
+
+              <form id="contactForm" novalidate>
+                <div class="row g-3">
+
+                  <!-- Full Name Input -->
+                  <div class="col-md-6">
+                    <label for="userName" class="form-label text-white-50 small">Your Full Name <span
+                        class="text-danger">*</span></label>
+                    <div class="input-group">
+                      <span class="input-group-text custom-input-group-text"><i class="fa-regular fa-user"></i></span>
+                      <input type="text" class="form-control custom-input" id="userName"
+                        placeholder="e.g. Ayesha Rahman" required>
+                    </div>
+                    <div class="invalid-feedback" id="userNameFeedback">Please enter your name.</div>
+                  </div>
+
+                  <!-- Email Address Input -->
+                  <div class="col-md-6">
+                    <label for="userEmail" class="form-label text-white-50 small">Your Email Address <span
+                        class="text-danger">*</span></label>
+                    <div class="input-group">
+                      <span class="input-group-text custom-input-group-text"><i
+                          class="fa-regular fa-envelope"></i></span>
+                      <input type="email" class="form-control custom-input" id="userEmail"
+                        placeholder="e.g. name@example.com" required>
+                    </div>
+                    <div class="invalid-feedback" id="userEmailFeedback">Please enter a valid email address.</div>
+                  </div>
+
+                  <!-- Subject Input -->
+                  <div class="col-12">
+                    <label for="userSubject" class="form-label text-white-50 small">Subject <span
+                        class="text-danger">*</span></label>
+                    <div class="input-group">
+                      <span class="input-group-text custom-input-group-text"><i
+                          class="fa-regular fa-bookmark"></i></span>
+                      <input type="text" class="form-control custom-input" id="userSubject"
+                        placeholder="e.g. Project Collaboration or Job Opportunity" required>
+                    </div>
+                    <div class="invalid-feedback" id="userSubjectFeedback">Please enter a subject.</div>
+                  </div>
+
+                  <!-- Message Textarea -->
+                  <div class="col-12">
+                    <label for="userMessage" class="form-label text-white-50 small">Your Message <span
+                        class="text-danger">*</span></label>
+                    <textarea class="form-control custom-input custom-textarea" id="userMessage" rows="5"
+                      placeholder="Write your message or inquiry here..." required></textarea>
+                    <div class="invalid-feedback" id="userMessageFeedback">Please write a message (at least 10
+                      characters).</div>
+                  </div>
+
+                  <!-- Submit Button -->
+                  <div class="col-12 pt-2">
+                    <button type="submit" class="btn btn-primary-gradient w-100 py-3" id="contactSubmitBtn">
+                      <i class="fa-regular fa-paper-plane me-2"></i> Send Message
+                    </button>
+                  </div>
+
+                </div>
+              </form>
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- =========================================================
+       8. FOOTER
+       ========================================================= -->
+  <footer class="footer py-4 bg-darker-surface border-top border-dark-subtle">
+    <div class="container">
+      <div class="row align-items-center gy-3">
+
+        <!-- Footer Name & Tagline -->
+        <div class="col-md-4 text-center text-md-start">
+          <a class="footer-brand d-inline-flex align-items-center gap-2 text-decoration-none" href="#home">
+            <span class="brand-badge-small"><i class="fa-solid fa-chart-line text-purple"></i></span>
+            <span class="text-white fw-bold">MUBASHIRA PK</span>
+          </a>
+          <p class="text-secondary small mb-0 mt-1">Data Analytics & Software Developer</p>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="col-md-4 text-center">
+          <ul class="footer-nav-list list-inline mb-0 small">
+            <li class="list-inline-item"><a href="#home" class="text-white-50 text-decoration-none hover-white">Home</a>
+            </li>
+            <li class="list-inline-item ms-3"><a href="#about"
+                class="text-white-50 text-decoration-none hover-white">About</a></li>
+            <li class="list-inline-item ms-3"><a href="#skills"
+                class="text-white-50 text-decoration-none hover-white">Skills</a></li>
+            <li class="list-inline-item ms-3"><a href="#projects"
+                class="text-white-50 text-decoration-none hover-white">Projects</a></li>
+            <li class="list-inline-item ms-3"><a href="#contact"
+                class="text-white-50 text-decoration-none hover-white">Contact</a></li>
+          </ul>
+        </div>
+
+        <!-- Social Links & Copyright -->
+        <div class="col-md-4 text-center text-md-end">
+          <div class="d-inline-flex gap-2 mb-2">
+            <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="social-icon-sm"
+              aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+            <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="social-icon-sm"
+              aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" class="social-icon-sm"
+              aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+          </div>
+          <p class="text-white-50 small mb-0">
+            &copy; <span id="currentYear">2026</span> <strong>Mubashira PK</strong>. All rights reserved.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating Back to Top Button -->
+  <button type="button" class="btn btn-back-to-top" id="backToTopBtn" aria-label="Back to top">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+  <!-- =========================================================
+       SCRIPTS: Bootstrap 5 Bundle & Custom JS
+       ========================================================= -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
